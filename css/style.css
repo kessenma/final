@@ -187,6 +187,25 @@ img.cookie_monster {
   width: 10vw;
 }
 
+/*Best Gallery Grid*/
+.container2{
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img{
+  height: 350px;
+  /* width: 100%; */
+}
+
+.container2{
+    grid-template-columns: auto auto auto;
+  }
+
+/*Unsplash grid */
+
 img {
   width: 100%;
   display: block;
