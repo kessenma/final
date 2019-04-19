@@ -1,94 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+	<meta charset="UTF-8">
+	<title>Home</title>
 
-<meta name="robots" content="noindex,follow" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Creating a Simple Parallax Scrolling Website</title>
-<link rel="stylesheet" href="css/style.css" />
-<link href="https://fonts.googleapis.com/css?family=Wellfleet" rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Wellfleet" rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<script
-  src="https://code.jquery.com/jquery-3.4.0.js"
-  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
-  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/html5reset.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> <link rel="stylesheet" href="css/style.css"/>
 
-</script>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+		
+	</script>
+
 </head>
+
+
 <body>
 
-<div id="demo_back">
-<a href="#" class="lpanel"> << BACK TO THE 1STWEBDESIGN ARTICLE </a>
-<a href="#" class="rpanel"> NEXT DEMO >> </a>
-</div>
+ <section class="banner" data-direction="down" data-speed="0.6">
+  <h1 class="banner-title" data-direction="up" data-speed="0.25">A blog about Cookies!</h1>
+<!--   <img class="skiing" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/skiing.svg" alt="" data-direction="up" data-speed="0.85"> -->
+</section>
 
-<header id="header">
-<div class="content">
-<div id="logo"><a href=""> PARALLAX </a></div>
-<nav id="nav">
-<ul>
-<li><a href="#slide1" class="active" title="Next Section">Slide 1</a></li>
-<li><a href="#slide2" title="Next Section">Slide 2</a></li>
-<li><a href="#slide3" title="Next Section">Slide 3</a></li>
-<li><a href="#slide4" title="Next Section">Slide 4</a></li>
-<li><a href="#slide5" title="Next Section">Slide 5</a></li>
-</ul>
-</nav>
-</div>
-</header>
+<a href="#content" class="skip">Skip to content</a>
 
+	<div id="navbar", class="topnav">
+		<a class= "current_nav" href = "index.html">Home</a>
+		<a href = "about.html">About </a>
+		<a href = "contact.html">Contact </a>
+		<a href = "best.html">Best</a>
+		<a href = "worst.html">Worst</a>
+		<a href = "pretty.html">Pretty Cookies</a>
+	</div>
+<section class="content2">
+	<div class ="container" id="content">
+	<h3>Cookie Blog</h3>
+	<img src = "images/cookie_monster.jpg" alt = "Waving Cookie Monster" class="cookie_monster">
 
-<div id="slide1">
-<div class="content">
-<div id="christmas_tree"> </div>
-<div id="snowflakes1"></div>
-<div id="snowflakes2"></div>
-<h2>MERRY</h2>
-<h1>CHRISTMAS</h1>
-<div id="divider"> </div>
-<h3>HAPPY NEW YEAR </h3>
-<div id="ribbon"></div>
-<div id="new_year"> </div>
-</div>
-</div>
-<div id="slide2">
-<div class="content">
-<div class="quotes_container">
-<h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought, doesn't come from a store. What if Christmas...perhaps...means a little bit more!”</h3>
-<img src="img/dr-seuss.png" align="left" /> <h4 class="author_name_gray">Dr. Seuss </h4>
-</div>
-</div>
-</div>
-<div id="slide3">
-<div class="content">
-<div class="quotes_container">
-<h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.” </h3>
-<img src="img/norman.png" align="left" /> <h4 class="author_name_white">Norman Vincent Peale </h4>
-</div>
-</div>
-</div>
-<div id="slide4">
-<div class="content">
-<div class="quotes_container">
-<h3 class="quotes">“Christmas doesn't come from a store, maybe Christmas perhaps means a little bit more....” </h3>
-<img src="img/dr-seuss.png" align="left" /> <h4 class="author_name_gray">Dr. Seuss </h4>
-</div>
-</div>
-</div>
-<div id="slide5">
-<div class="content">
-<div class="quotes_container">
-<h3 class="quotes">“My idea of Christmas, whether old-fashioned or modern, is very simple: loving others. Come to think of it, why do we have to wait for Christmas to do that?” </h3>
-<img src="img/bob.png" align="left" /> <h4 class="author_name_white">Bob Hope </h4>
-</div>
-<div id="copyright"><a href="https://www.1stwebdesigner.com/">Copyright 1stwebdesigner.com </a></div>
-</div>
-</div>
+		<p> Hey! Thanks for visiting! This website is dedicated to my first love-- cookies.</p>
 
+		<p> I have my opinions on what makes a good cookie and what makes a bad cookie, but so do my friends and family, so I sent an survey to a bunch of people asking for their opinions on cookies. I got back a bunch of responses, and I am going to showcase all of the responses on this website while learning accessible design practices. </p> 
+
+		<h2>
+			FAQ:
+		</h2>
+
+		<h3>What is the definition of a cookie:</h3>
+		<p> According to the <a href="https://www.merriam-webster.com/dictionary/cookie">Merriam Webster Dictionary</a>, a cookie is a small flat or slightly raised cake. </p>
+
+		<h3>What is your favorite cookie?</h3>
+		<p> My mom's homemade chocolate chip cookies. ...duh</p>
+
+		<h3>What is your least favorite cookie?</h3>
+		<p> These things <img src="images/frosted_cookies.jpg" alt="pink frosted cookies"></p>
+
+		<h3>How did you decide what cookies made the cut on this site?</h3>
+		<p> I created a Google Form Survey and sent it to my friends & family. The biggest contributers to this site were my 17 year old brothers friends in high school. They have a lot of opinions on what make good & bad cookies.</p>
+
+		<h3>Do you provide free samples?</h3>
+		<p> No. Sorry go to Costco.</p>
 </body>
-</html>
+</div>
+</section>
 
+<div class ="footer">
+  <p>Posted by: Kyle Essenmacher</p>
+  <p>Contact information: <a href="Kessen@umich.edu">
+  Kessen@umich.edu</a>.</p>
+</div>
+
+<!-- <script src="js/sticky_nav_bar.js"></script> -->
+<script src="js/parallex.js"></script>
+<!-- <script src="js/hamburger_menu.js"></script> -->
+</html>
